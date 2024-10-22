@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .book-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 10px;
+            width: 30%;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .book-item img {
+            width: 100px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Perpustakaan Online</h1>
+    </header>
+
+    <div class="container">
+        <h2>Daftar Buku</h2>
+        <div class="book-list">
+            <!-- Book 1 -->
+            <div class="book-item">
+                <img src="https://via.placeholder.com/100x150" alt="Buku 1">
+                <h3>Judul Buku 1</h3>
+                <p>Pengarang: Pengarang 1</p>
+            </div>
+            <!-- Book 2 -->
+            <div class="book-item">
+                <img src="https://via.placeholder.com/100x150" alt="Buku 2">
+                <h3>Judul Buku 2</h3>
+                <p>Pengarang: Pengarang 2</p>
+            </div>
+            <!-- Book 3 -->
+            <div class="book-item">
+                <img src="https://via.placeholder.com/100x150" alt="Buku 3">
+                <h3>Judul Buku 3</h3>
+                <p>Pengarang: Pengarang 3</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Perpustakaan Online - 2024</p>
+    </footer>
+
+</body>
+</html>
